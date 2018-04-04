@@ -21,5 +21,7 @@
     %   end
         <p><a href="./shop">Aftur í verslun</a></p>
     % end
+
+    <p><a href="/cart/remove">Tæma körfu</a></p>
 </body>
 </html>

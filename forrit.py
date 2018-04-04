@@ -98,4 +98,12 @@ def cart():
             karfa.append(vara)
 
     return template('cart.tpl', karfa=karfa)
+
+@route('/cart/remove')
+def cart_remove():
+    session = request.environ.get('beaker.session')
+    session.delete()
+
+    return redirect('/shop')
+
 run(app=my_session, port=5000)
