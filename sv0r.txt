@@ -1,0 +1,6 @@
+a. Cookie er nefnd texta skrá sem er geymd í vefvafra notandans.
+b. Sessions veita stað til að viðvara gögn í vef forritum.
+c. Cookies eru gögn geymd á vefvafra notandans og sent til servers. Sessions eru safn af gögnum geymd á server og tengd við notandan.
+d. Cache er vélbúnaður eða hugbúnaður sem geymir gögn svo að hægt sé að sækja þau hraðar næst þegar þarf að nota þau.
+e. IndexedDB er notað til að geyma mikil mögn af skipulögðum gögnum.
+f. Websql er notað til að geyma gögn í gagnasöfnum sem hægt er að sækja með SQL.

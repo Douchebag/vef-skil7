@@ -38,15 +38,13 @@ body :-ms-input-placeholder {
   font-weight: 300;
 }
 .wrapper {
-  background: #50a3a2;
-  background: -webkit-gradient(linear, left top, right bottom, from(#50a3a2), to(#53e3a6));
-  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  background: #7a339e;
+  background: -webkit-gradient(linear, left top, right bottom, from(#7a339e), to(#4c2ec7));
+  background: linear-gradient(to bottom right, #7a339e 0%, #4c2ec7 100%);
   position: absolute;
-  top: 50%;
   left: 0;
   width: 100%;
   height: 100%;
-  margin-top: -200px;
   overflow: hidden;
 }
 .wrapper.form-success .container h1 {
