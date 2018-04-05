@@ -1,6 +1,7 @@
 #login form útlit frá https://codepen.io/Lewitje/pen/BNNJjo
 from bottle import run, route, template, request, response, redirect, static_file, error, app
 from beaker.middleware import SessionMiddleware
+import os
 
 @route("/static/<filename>")
 def server_static(filename):
@@ -106,4 +107,4 @@ def cart_remove():
 
     return redirect('/shop')
 
-run(app=my_session, port=5000)
+run(app=my_session, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
